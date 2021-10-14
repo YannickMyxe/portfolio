@@ -1,0 +1,67 @@
+:root
+{
+    --max-vw: 1500px;
+}
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Noto Sans Display', 'Roboto', sans-serif;
+}
+
+main
+{
+    max-width: var(--max-vw);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+    color: rgb(79, 98, 114);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+
+.button
+{
+    display: block;
+    border: 1px solid #919191;
+    background-color: #d1d1d1;
+    padding: 0.5em 1em;
+    width: max-content;
+    margin-top: 1em;
+    text-decoration: none;
+    color: #333;    
+    transition: background-color 500ms ease;
+}
+
+.button:hover
+{
+    background-color: rgba(255, 119, 0, 0.50);
+}
+
+.worktogether
+{
+    border-top: 1px solid black;
+    margin: 1em;
+}
+
+footer
+{
+    border-top: 1px solid black;
+    background: #333;
+    padding: 1em;
+    margin-top: 2em;
+    color: #eee;
+    text-align: center;
+}

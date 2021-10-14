@@ -1,0 +1,50 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.projects li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 360px;
+    padding: 1em;
+}
+.projects li > img {
+    z-index: -1;
+}
+.projects li > a.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.projects li > a:not(.overlay) {
+    z-index: 1;
+}
+
+.projects h3
+{
+    margin: 0em;
+}
+
+.projects>:hover
+{
+    background: rgba(44, 44, 44, 0.10);
+}
+
+.projects a:hover
+{
+    color: rgb(255, 119, 0);
+}
+
+.projects-title
+{
+    margin: 1em 0 0 1em;
+    padding: 0;
+}

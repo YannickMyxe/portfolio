@@ -1,0 +1,56 @@
+
+form
+{
+    margin-left: 0.5rem;
+}
+
+.radiotitle
+{
+    display: block;
+}
+
+input[type=text], input[type=email], textarea
+{
+    display: block;
+    margin: 1rem 1rem 1rem 0rem;
+    width: 15rem;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+input[type=radio]
+{
+    margin: 1em, 0.25em;
+    margin-top: 1.2em;
+
+}
+
+input:hover, textarea:hover, button:hover
+{
+    background: rgb(230, 230, 230);
+}
+
+button
+{
+    padding: 0.5rem;
+    border-radius: 25px;
+}
+
+.contact
+{
+    padding: 0;
+    margin: 0;
+}
+
+.message.error {
+    color: red;
+    display: block;
+    font-weight: 600;
+    margin: 1em 0em 2em 0em;
+}
+
+.messagelist li
+{
+    margin-top: 1.25em;
+}

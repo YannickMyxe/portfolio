@@ -1,0 +1,86 @@
+header
+{
+    background: rgba(44, 44, 44, 1);
+}
+
+.navcontainer
+{
+    display: flex;
+    flex: 0 0 0.2rem;
+    justify-content: space-between;
+    color: rgb(167, 221, 252);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.logo
+{
+    position: relative;
+}
+
+.logo
+{
+    margin: auto 1em;
+}
+
+.logo>a
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.logo img
+{
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+    display: flex;
+    margin: 0;
+}
+
+nav>ul
+{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav>ul>li
+{
+    flex: 1 1 auto; 
+    padding: 0.2rem 0.5em;
+    gap: 2em;
+    margin: 0.70em 0.25em;
+}
+
+nav a
+{
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 3em;
+    border: 3px solid rgba(0, 255, 136, 0);
+    text-decoration: none;
+    transition: border-radius 800ms ease;    
+}
+
+nav a:hover
+{
+    color: rgb(255, 166, 0);
+    border: 3px solid rgb(255, 119, 0);
+    border-radius: 0em;
+}
+
+.current-page
+{
+    /*background-color: rgb(18, 123, 131);*/
+    border: 3px solid rgb(0, 255, 136);
+}

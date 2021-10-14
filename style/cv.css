@@ -1,0 +1,14 @@
+.wrapper
+{
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0;
+    margin: 0;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.cv
+{
+    margin-left: 1em;
+}
