@@ -65,3 +65,8 @@ footer
     color: #eee;
     text-align: center;
 }
+
+a:hover
+{
+    color: rgb(255, 119, 0);
+}

@@ -38,11 +38,6 @@
     background: rgba(44, 44, 44, 0.10);
 }
 
-.projects a:hover
-{
-    color: rgb(255, 119, 0);
-}
-
 .projects-title
 {
     margin: 1em 0 0 1em;
